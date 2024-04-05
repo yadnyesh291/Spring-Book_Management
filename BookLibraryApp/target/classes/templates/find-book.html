@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Find Book</title>
+</head>
+<body>
+<h1>Find Book</h1>
+<form action="#" th:action="@{/find-book}" method="post">
+    <label>Book Name: <input type="text" name="bookName" /></label><br/>
+    <input type="submit" value="Find" />
+</form>
+<a href="/">Back to Home</a>
+</body>
+</html>
